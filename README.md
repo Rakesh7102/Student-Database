@@ -1,26 +1,21 @@
-# Student-Database-Management-System
-This is project of our sophomore project of Data Base Management System made using Python and Sqlite.
-In this student database management system we can add, delete,update,view and clear existing records from the database.
-Here Student ID acts as the PRIMARY KEY and we store Student name,age,gender,address and mobile number.<br />
-Here are some of the screenshots of the frontend:
- <br />
-![Screenshot (47)](https://user-images.githubusercontent.com/45651397/78636372-d96e5b00-78c5-11ea-93ee-c195c5b8ee9a.png)
- <br />
-Here Add new- Adds new informtion related to student.<br />
-Clear- clears the entry box for new entries.<br />
-Search- Enter any keyword in the query box and search will show you the relevant results.<br />
-Update- Updates any changes applied to that particular given user.<br />
-Delete- Deletes the entire dataset selected.<br />
-Display- Views the entries till date.<br />
-Here is how the Exit button works:<br />
- <br />
-![Screenshot (48)](https://user-images.githubusercontent.com/45651397/78637910-f7898a80-78c8-11ea-8f47-44dba9b0ae74.png)
- <br />
-If we press 'Yes'  it will exit the process and if we press 'No' it will return to process.<br />
-This project was undertaken under the guidance of Dr. Brij Bihari Dubey of the Database Management Systems.<br />
-Language used: Python 3<br />
-Query Language used: Sqlite 3<br />
-Library:Tkinter<br />
-Other concepts involved: Object Oriented Programming(OOPS)
+The Student Database Management System is a desktop application developed using Python's Tkinter for the front end and SQLite for the back end. It allows users to manage student records, including adding, updating, deleting, and searching for information through an intuitive graphical interface.
 
+Front End (Tkinter)
+User Interface Components:
 
+Main Window: A visually appealing interface titled "Student Database Management System," featuring a cadet blue background.
+Input Fields: Fields for Student ID, First Name, Surname, Date of Birth, Age, Gender, Address, and Mobile Number, each clearly labeled.
+Buttons: Action buttons for adding, displaying, clearing, deleting, searching, updating records, and exiting the application.
+Listbox with Scrollbar: Displays student records, enabling users to select and interact with entries easily.
+Back End (SQLite)
+Database Operations:
+
+Initialization: Creates a SQLite database (student.db) with a student records table upon startup.
+CRUD Functions:
+Create: Adds new student records.
+Read: Retrieves all records or searches specific entries.
+Update: Modifies existing records.
+Delete: Removes selected records.
+Security: Utilizes parameterized queries to prevent SQL injection.
+Conclusion
+This system effectively combines a user-friendly interface with a robust database backend, providing essential functionalities for managing student information in educational institutions. Its modular design allows for future enhancements and updates.
